@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>himeshsharma</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo-y3.svg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/avatar-yugant-1.png"
+              alt="Himesh Sharma"
+              width="80"
+              id="photoid"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Himesh Sharma">Himesh Sharma</h1>
+
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box icon-mail">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:sharmahimesh@gmail.com" class="contact-link"
+                  >sharmahimesh@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box icon-phone">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919424426691" class="contact-link"
+                  >+91 9424426691</a
+                >
+              </div>
+            </li>
+
+
+            <li class="contact-item">
+              <div class="icon-box icon-location">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bhopal, Madhya Pradesh, India</address>
+              </div>
+            </li>
+            
+            <li class="contact-item">
+              <div class="icon-box icon-resume">
+                <ion-icon name="document-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title"><a  id="resume" href="./assets/data/himeshsharmaresume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></p>
+                <!-- <address>Agra, Uttar Pradesh, India</address> -->
+              </div>
+            </li>
+            
+          </ul>
+
+          <div class="separator"></div>
+          <ul class="social-list">
+            <!--<li class="social-item">
+              <a href="" class="social-link">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </a>
+            </li> -->
+
+            <li class="social-item">
+              <a href="https://github.com/TheQuestHS" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/himesh-sharma-1777002a/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/himshhx_/?next=%2F"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li> -->
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hi, I'm a software developer based in India with a passion for
+              creating innovative and user-friendly web applications and
+              artificial intelligence solutions. I have experience in working
+              with various technologies and frameworks such as React, NodeJS,
+              Django, TensorFlow and more.
+            </p>
+
+            <p>
+              I enjoy learning new skills and exploring new challenges in the
+              field of software development. I'm always looking for
+              opportunities to collaborate with other developers and contribute
+              to open source projects. You can check out some of my work on my
+              GitHub profile or contact me via email or LinkedIn.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icons-code.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title service-item-web-dev">Web development</h4>
+
+                  <p class="service-item-text">
+                    Using cutting-edge technologies and best practices to create
+                    stunning and functional web applications.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icons-bot.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title service-machine-learning">Machine Learning</h4>
+
+                  <p class="service-item-text">
+                    Enthusiast who loves exploring new algorithms and frameworks
+                    and applying them to various applications.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-programming.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title service-data-structures">Data Structures</h4>
+
+                  <p class="service-item-text">
+                    Love exploring new and challenging problems and solving them
+                    using data structures and algorithms.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-adobe-illustrator.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title service-illustration">Artificial Intelligence</h4>
+
+                  <p class="service-item-text">
+                    Convert the machine learning models into application program interfaces (APIs) so that other applications can use it.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <!-- <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Daniel lewis
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Jessica miller
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Emily evans
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Henry william
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section> -->
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        --></article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box icon-timeline">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3 timeline-new">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vellore Institute of Technology, Bhopal, IN
+                </h4>
+
+                <span>Jul 2019 — Ongoing</span>
+
+                <p class="timeline-text">
+                  Computer Science and Engineering (AI and ML) - 7.59/10
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Kendriya Vidyalaya Sangathan, Damoh, IN
+                </h4>
+
+                <span>May 2017 - 2018</span>
+
+                <p class="timeline-text">High School (Class XII) - 73.5%</p>
+              </li>
+
+               <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Kendriya Vidyalaya Sangathan, Damoh, IN
+                </h4>
+
+                <span>May 2015 — 2016</span>
+
+                <p class="timeline-text">
+                  Secondary School (Class X) - 80%
+                </p>
+              </li> 
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box icon-timeline">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3 timeline-new">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Community Project</h4>
+
+                <span>2021 — 2022</span>
+
+                <p class="timeline-text">
+                  Adhyayan
+                </p>
+                <ul class="certificatePointsli">
+                  <li>Led a team of 8 members from different engineering domains to develop and deploy Adhyayan, Gamified learning website for kids and site contains UNITY games for development of 
+                    children and having fun while learnig.</li>
+                  <li>Built the frontend using HTML, JS, CSS with React, Node JS and Bootstrap libraries, NoSQL and integrated it with the backend services (MongoDB Atlas).</li>
+                  <li>Demonstrated the app to the reviewers and received positive feedback and recognition for its functionality and usability.</li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Augmented Reality</h4>
+
+                <span>Frb 22 - Apr 22</span>
+
+                <p class="timeline-text">
+                  MirrAR Innovation Technologies Pvt. Ltd 
+                </p>
+                <ul class="certificatePointsli">
+                  <li>Practical application-based learning and worked in the field of Augmented Reality and 3D Modeling.</li>
+                  <li>Created Blender projects and prototypes for the club's projects using Blender and SparkAR.</li>
+                  <li>Created Snapchat filters and prototypes using Spark AR, Adobe Photoshop and Blender for the club members and other students.</li>
+                </ul>
+              </li>
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web designer</h4>
+
+                <span>2010 — 2013</span>
+
+                <p class="timeline-text">
+                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
+                  delenit atque corrupti, quos dolores et quas molestias
+                  exceptur.
+                </p>
+              </li> -->
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box icon-timeline">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3 timeline-new">Certifications</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificateHeader">Solutions Architect Virtual Experience Program Certificate, <span class="certificateCompany">AWS</span></h4>
+                <span>Feb 2022<a class="certificate" href="https://insidesherpa.s3.amazonaws.com/completion-certificates/AWS/kkE9HyeNcw6rwCRGw_AWS_xtqBD6DE4RWjEKXRT_1645943928074_completion_certificate.pdf" target="_blank" rel="noopener noreferrer">AWS</a></span>
+                <p class="timeline-text certificateParagraph"> Professional Solution Architech certificate, developed by Amazon AWS.</p>
+                <p class="timeline-text certificatePoints"> What did I learn?</p>
+                <ul class="certificatePointsli">
+                  <li>Learned how to design applications, building, and maintaining scalable and reliable systems using AWS infrastructure.</li>
+                  <li>Created model solution to compare with real model solution from AWS team.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificateHeader">Big Data Foundations <span class="certificateCompany">IBM</span></h4>
+                <span>Mar 2022 <a class="certificate" href="https://drive.google.com/file/d/1RkKWuJAh2sqX3ZLtDHpv-clmvCvO5w7t/view?usp=sharing" target="_blank" rel="noopener noreferrer">IBM</a></span>
+                <p class="timeline-text certificateParagraph">  Big Data Foundations - Level 1 certificate, developed by IBM </p>
+                <p class="timeline-text certificatePoints"> What did I learn?</p>
+                <ul class="certificatePointsli">
+                  <li>Best practices for understanding of Big Data concepts and their applications to gain insight for providing better service to customers. </li>
+                  <li>Building the big data ecosystem and hadoop commands and operations to work with big data.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificateHeader">Applied Machine Learning in Python, <span class="certificateCompany">University Of Michigan</span></h4>
+                <span>Feb 2022<a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/UV453VVW4PE3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" target="_blank" rel="noopener noreferrer">Coursera</a></span>
+                <p class="timeline-text certificateParagraph"> Four-course specialization certificate by University Of Michigan </p>
+                <p class="timeline-text certificatePoints"> What did I learn?</p>
+                <ul class="certificatePointsli">
+                  <li> Created and evaluated full-fledged data clusters.</li>
+                  <li>Developed different approaches for creating predictive models.</li>
+                  <li>Developed and Build features that meet analysis needs</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificateHeader">HTML, CSS, and Javascript for Web Developers <span class="certificateCompany">Johns Hopkins University</span></h4>
+                <span>Jul 2020 <a class="certificate" href="https://drive.google.com/file/d/1Tfj87W97wAbFMv77BM6UE04VoCSKlcT9/view?usp=sharing" target="_blank" rel="noopener noreferrer">Coursera</a></span>
+                <p class="timeline-text certificateParagraph">  HTML, CSS, and Javascript for Web Developers certificate, developed by Johns Hopkins University </p>
+                <p class="timeline-text certificatePoints"> What did I learn?</p>
+                <ul class="certificatePointsli">
+                  <li>Best practices for understanding of Big Data concepts and their applications to gain insight for providing better service to customers. </li>
+                  <li>Building the big data ecosystem and hadoop commands and operations to work with big data.</li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box icon-timeline">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3 timeline-new">Tech Stack</h3>
+            </div>
+
+            <ol class="skills-li">
+              <li class="timeline-item">
+                <span>C/C++, Python and Java</span>
+                <!-- <p class="timeline-text">JavaScript, Python and Java.</p> -->
+              </li>
+
+              <li class="timeline-item">
+                <span>MySQL and Machine Learning</span>
+              </li>
+
+              <li class="timeline-item">
+                <span>AWS and HTML/CSS</span>
+              </li>
+
+              <li class="timeline-item">
+                <span>React and Node JS</span>
+              </li>
+
+              <li class="timeline-item">
+                <span>TensorFlow</span>
+              </li>
+
+              <li class="timeline-item">
+                <span>Linux and Windows</span>
+              </li>
+
+                <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web designer</h4>
+
+                <span>2010 — 2013</span>
+
+                <p class="timeline-text">
+                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
+                  delenit atque corrupti, quos dolores et quas molestias
+                  exceptur.
+                </p>
+              </li> -->
+              </li>
+            </ol>
+          </section>
+
+          <section class="clients">
+            <!-- <h3 class="h3 clients-title">Tech Stack</h3> -->
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <img src="./assets/images/logo-js.png" alt="JavaScript" />
+                <p class="clients-item-name">JavaScript</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-node.png" alt="Node JS" />
+                <p class="clients-item-name">Node JS</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-MySQL.png" alt="MySQL" />
+                <p class="clients-item-name">MySQL</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-react.png" alt="React" />
+                <p class="clients-item-name">React</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-aws.png" alt="AWS" />
+                <p class="clients-item-name">AWS</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-python.png" alt="Python" />
+                <p class="clients-item-name">Python</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-jupyter.png" alt="Jupyter" />
+                <p class="clients-item-name">Jupyter</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-tensor.png" alt="Tensorflow" />
+                <p class="clients-item-name">Tensorflow</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-linux.png" alt="Linux" />
+                <p class="clients-item-name">Linux</p>
+              </li>
+              <li class="clients-item">
+                <img src="./assets/images/logo-html.png" alt="HTML/CSS" />
+                <p class="clients-item-name">HTML/CSS</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Dev</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Machine Learning</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Designing</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Computer Vision</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button id="button-all" class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button id="button-web" data-filter-btn>Web development</button>
+              </li>
+              
+              <li class="filter-item">
+                <button id="button-ml" data-filter-btn>Machine Learning</button>
+              </li>
+
+              <li class="filter-item">
+                <button id="button-app" data-filter-btn>Computer Vision</button>
+              </li>
+
+              <li class="filter-item">
+                <button id="button-others" data-filter-btn>Others</button>
+              </li>
+
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Machine Learning</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Computer Vision</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Others</button>
+                </li>
+                
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <!-- Adhyayan -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://adhyayan-pedagogy.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Adhyayan</h3>
+                </a>
+                
+                <p class="project-category">Web development</p>
+                  <div class="project-about">
+                    <p class="project-about-para">
+                      Gamified learning website for kids and site contains UNITY games for development of children and having fun while learning.
+                    </p>
+                    <p>
+                      <ul class="project-stack-list">
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>React and Node Js</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Express.js Server</li> 
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Bootstrap and UNITY</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>MongoDB</li>
+                    </ul>
+                  </p>
+                  </div>
+                  <div class="project-options">
+                    <!-- <a id="project-open" href="./pages/health-plus.html" target="_blank" rel="noopener noreferrer">Open</a> -->
+                    <a id="project-deploy" href="https://adhyayan-pedagogy.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+                    <a id="project-github" href="https://github.com/TheQuestHS/Adhyayan-Pedagogy_edu" target="_blank" rel="noopener noreferrer" >Github</a>
+                  </div>
+              </li>
+              
+              <!-- Filmio: The smart movie platform with AI voice assistance. -->
+              <!-- <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="Flimio"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Flimio</h3>
+
+                </a>
+                <p class="project-category">Web development</p>
+                  <div class="project-about">
+                    <p>
+                      <ul class="project-stack-list">
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>React</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>API</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Alan AI</li> 
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Vercel</li>
+                    </ul>
+                  </p>
+                  </div>
+                  <div class="project-options">
+                    <a id="project-open">Open</a>
+                    <a id="project-deploy">Live</a>
+                    <a id="project-github">Github</a>
+                  </div>
+              </li> -->
+              <!-- Hand Sign Detection -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="computer vision"
+              >
+                <a href="https://github.com/TheQuestHS/HandSign-Detection">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="HandSign-Detection"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">HandSign-Detection</h3>
+
+                </a>
+                <p class="project-category">Computer Vision</p>
+                <div class="project-about">
+                  <p class="project-about-para">
+                    Hand Sign Language Recognition (SLR) is a computational task that involves recognizing actions from hand sign languages. 
+                  </p>
+                    <p>
+                      <ul class="project-stack-list">
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>OpenCV and Tensorflow</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>CV Zone and Mediapipe </li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Model Training</li> 
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Teachable Machine web</li>
+                    </ul>
+                  </p>
+                  </div>
+                  <div class="project-options">
+                    <!-- <a id="project-open">Open</a> -->
+                    <!-- <a id="project-deploy">Live</a> -->
+                    <a id="project-github" href="https://github.com/TheQuestHS/HandSign-Detection" target="_blank" rel="noopener noreferrer">Github</a>
+                  </div>
+              </li>
+
+              <!-- CryptoPets -->
+              <!-- <li
+                class="project-item active"
+                data-filter-item
+                data-category="others"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="CryptoPets"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">CryptoPets</h3>
+
+                </a>
+                <p class="project-category">Others - Web3</p>
+                <div class="project-about">
+                    <p>
+                      <ul class="project-stack-list">
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>React</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Tailwind</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>MetaMask</li> 
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Vercel</li>
+                    </ul>
+                  </p>
+                  </div>
+                  <div class="project-options">
+                    <a id="project-open">Open</a>
+                    <a id="project-deploy">Live</a>
+                    <a id="project-github">Github</a>
+                  </div>
+              </li> -->
+
+              
+              <!-- ClearView: A name that suggests your project can enhance images and make them clear even under extreme weather conditions. -->
+              <li
+              class="project-item active"
+              data-filter-item
+              data-category="machine learning"
+              >
+              <a href="https://github.com/TheQuestHS/starbucks-customer-segmentation-master" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+                  
+                  <img
+                  src="./assets/images/project-5.png"
+                  alt="customer-segmentation"
+                  loading="lazy"
+                  />
+                </figure>
+                
+                <h3 class="project-title">Starbucks Customer Segmentation</h3>
+                
+              </a>
+                <p class="project-category">Machine Learning</p>
+                <div class="project-about">
+                  <p class="project-about-para">
+                    Segmentation to make better use of marketing budgets, gain a competitive advantage over competitors.
+                  </p>
+                  <p>
+                    <ul class="project-stack-list">
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Tensorflow (keras)</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>NumPy and Seaborn</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Matplotlib and flask</li>
+                     <!-- <li> <ion-icon name="arrow-forward-outline"></ion-icon></li> -->
+                    </ul>
+                  </p>
+                  </div>
+                  <div class="project-options">
+                    <!-- <a id="project-open">Open</a> -->
+                    <!-- <a id="project-deploy">Live</a> -->
+                    <a id="project-github" href="https://github.com/TheQuestHS/starbucks-customer-segmentation-master" target="_blank" rel="noopener noreferrer">Github</a>
+                  </div>
+                </li>
+
+              
+
+              <!-- Tee3D -->
+              <!-- <li
+              class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+              <a href="#">
+                <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+                    
+                    <img
+                    src="./assets/images/project-7.png"
+                    alt="tee3d"
+                    loading="lazy"
+                    />
+                  </figure>
+                  
+                  <h3 class="project-title">Tee3D</h3>
+                  
+                </a>
+                <p class="project-category">Web development</p>
+                <div class="project-about">
+                    <p>
+                      <ul class="project-stack-list">
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>React</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Three Js</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Chat GPT API</li> 
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Vercel</li>
+                    </ul>
+                  </p>
+                </div>
+                  <div class="project-options">
+                    <a id="project-open">Open</a>
+                    <a id="project-deploy">Live</a>
+                    <a id="project-github">Github</a>
+                  </div>
+                </li> -->
+                
+                <!-- React-State-Scripts - Empty -->
+                <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+                >
+                <a href="https://github.com/TheQuestHS/SCANNY-Multi-Purpose-OCR-APP" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+                    
+                    <img
+                    src="./assets/images/project-8.jpg"
+                    alt="react-state-scripts"
+                    loading="lazy"
+                    />
+                  </figure>
+                  
+                  <h3 class="project-title">SCANNY Multi-Purpose OCR APP</h3>
+                  
+                </a>
+                <p class="project-category">Machine Learning</p>
+                <div class="project-about">
+                  <p class="project-about-para">
+                    It is a multi-purpose OCR Scanner android app, it extract the text as output from any given image, PDF, captcha and number plate of a vehicle.
+  
+                    </p>
+                  <p>
+                      <ul class="project-stack-list">
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Java and Flutter</li>
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Machine Learning</li>
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Firebase</li> 
+                       <!-- <li> <ion-icon name="arrow-forward-outline"></ion-icon>NPM</li> -->
+                      </ul>
+                    </p>
+                    
+                  </div>
+                  <div class="project-options">
+                    <!-- <a id="project-open">Open</a> 
+                    <a id="project-deploy" href="https://www.npmjs.com/org/yugant-hooks" target="_blank" rel="noopener noreferrer">Live</a> -->
+                    <a id="project-github" href="https://github.com/TheQuestHS/SCANNY-Multi-Purpose-OCR-APP" target="_blank" rel="noopener noreferrer">Github</a>
+                  </div>
+                </li>
+                
+              <!-- Leafy Lane -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+                >
+                <a href="https://github.com/TheQuestHS/Phishing-Website-Detection-using-Machine-Learning-Techniques" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="Phishing-Website Detection"
+                      loading="lazy"
+                    />
+                  </figure>
+                  
+                  <h3 class="project-title">Phishing-Website Detection</h3>
+
+                </a>
+                <p class="project-category">Machine Learning</p>
+                <div class="project-about">
+                  <p class="project-about-para">
+                    The objective of this project is to train machine learning models and deep neural nets on the dataset created to predict phishing websites.
+                  </p>
+                  <p>
+                      <ul class="project-stack-list">
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>ML Algorithms</li>
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Python libraries</li>
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Jupyter</li>
+                       <!-- <li> <ion-icon name="arrow-forward-outline"></ion-icon>Vercel</li> -->
+                      </ul>
+                  </p>
+                </div>
+                <div class="project-options">
+                  <!-- <a id="project-open">Open</a> -->
+                   <!-- <a id="project-deploy" href="https://yugantsingh-leafy-lane.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a> -->
+                    <a id="project-github" href="https://github.com/TheQuestHS/Phishing-Website-Detection-using-Machine-Learning-Techniques" target="_blank" rel="noopener noreferrer">Github</a>
+                  </div>
+                </li>
+                <!-- Applications - Empty-->
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="others"
+                >
+                  <a href="https://expo.dev/@himeshsharma/jobhunt" target="_blank" rel="noreferrer noopener">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="open-outline"></ion-icon>
+                      </div>
+          
+                      <img
+                        src="./assets/images/project-4.png"
+                        alt="JobHunt"
+                        loading="lazy"
+                      />
+                    </figure>
+          
+                    <h3 class="project-title">JobHunt</h3>
+          
+                  </a>
+                  <p class="project-category">Applications</p>
+                  <div class="project-about">
+                    <p class="project-about-para">
+                      A React Native Application that helps you find your dream job, built using Expo, React Native and Rapid Api.
+                    </p>
+                      <p>
+                        <ul class="project-stack-list">
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>React Native</li>
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Rapid Api</li>
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Expo</li> 
+                        <li> <ion-icon name="arrow-forward-outline"></ion-icon>Metro</li>
+                      </ul>
+                    </p>
+                    </div>
+                    <div class="project-options">
+                      <!-- <a id="project-open">Open</a> -->
+                      <a id="project-deploy"  href="https://expo.dev/@himeshsharma/jobhunt" target="_blank" rel="noopener noreferrer">Live</a>
+                      <a id="project-github" href="https://github.com/TheQuestHS/JobHunt" target="_blank" rel="noopener noreferrer">Github</a>
+                    </div>
+                </li>
+                <!-- Machine Learning -  Empty -->
+              <!-- <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="open-outline"></ion-icon>
+                    </div>
+                    
+                    <img
+                    src="./assets/images/project-6.png"
+                    alt=""
+                    loading="lazy"
+                    />
+                  </figure>
+                  
+                  <h3 class="project-title">Empty</h3>
+                  
+                </a>
+                <p class="project-category">Machine Learning</p>
+                <div class="project-about">
+                  <p>
+                      <ul class="project-stack-list">
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>React</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Next Js</li>
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>MongoDB</li> 
+                      <li> <ion-icon name="arrow-forward-outline"></ion-icon>Vercel</li>
+                    </ul>
+                  </p>
+                  </div>
+                  <div class="project-options">
+                    <a id="project-open">Open</a>
+                    <a id="project-deploy">Live</a>
+                    <a id="project-github">Github</a>
+                  </div>
+              </li> -->
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+      
+      <!-- <article class="blog" data-page="blog">
+        <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+          
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                    src="./assets/images/blog-1.jpg"
+                    alt="Design conferences in 2022"
+                    loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article> -->
+
+        <!--
+        - #CONTACT
+      -->
+
+        <!-- <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article> -->
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
